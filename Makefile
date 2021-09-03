@@ -1,2 +1,3 @@
 all:
-	gcc -Isrc/include -Lsrc/lib -o main main.c -lraylibdll
+	g++ -Isrc/include -Lsrc/lib -o main flapps/*.cpp -lraylibdll
+	main
